@@ -1,6 +1,7 @@
 {
-  "name": "~TODO~",
+  "name": "sveltekit-graphcms-blog-starter-example",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -9,6 +10,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "^1.0.0-next.16",
     "@sveltejs/kit": "next",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
@@ -18,7 +20,6 @@
     "svelte": "^3.34.0",
     "vite": "^2.2.3"
   },
-  "type": "module",
   "dependencies": {
     "graphql": "^15.5.0",
     "graphql-request": "^3.4.0"

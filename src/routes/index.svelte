@@ -34,9 +34,13 @@
 <ul>
   {#each posts as post}
     <li>
-      <a href="/blog/{post.slug}">
+      <a class="text-blue-600 underline" href="/blog/{post.slug}">
         {post.title}
       </a>
     </li>
   {/each}
 </ul>
+
+<style style lang="postcss">
+  /* your styles go here */
+</style>

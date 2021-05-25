@@ -1,6 +1,6 @@
 <div
   class="hero min-h-[90vh]"
-  style="background-image: url("https://picsum.photos/id/1005/1600/1400");"
+  style="background-image: url(&quot;https://picsum.photos/id/1005/1600/1400&quot;);"
 >
   <div class="hero-overlay bg-opacity-60" />
   <div class="text-center hero-content text-neutral-content">

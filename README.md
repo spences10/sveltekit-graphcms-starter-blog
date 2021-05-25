@@ -1,46 +1,46 @@
-# create-svelte
+# SvelteKit GraphCMS starter blog
 
-Everything you need to build a Svelte project, powered by
-[`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This starter shows how to use the SvelteKit with GraphCMS. It uses
+`graphql-request` and GraphCMS for the backend.
 
-## Creating a project
+• [Demo](https://sveltekit-graphcms-starter-blog.vercel.app/)
 
-If you're seeing this, you've probably already done this step.
-Congrats!
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/spences10/sveltekit-graphcms-starter-blog/tree/main)
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#/https://github.com/spences10/sveltekit-graphcms-starter-blog)
 
-# create a new project in my-app
-npm init svelte@next my-app
+## How to Use
+
+See the introductory [blog post] on getting started building out this
+project.
+
+You'll need a GraphCMS account and the Blog Starter created, get the
+endpoint from the "API Access" section in the project settings, check
+the "Content from stage Published" checkbox for access.
+
+Rename the `sample.env` file to `.env` and add your endpoint:
+
+```text
+VITE_GRAPHCMS_URL=your-endpoint-here
 ```
 
-> Note: the `@next` is temporary
+Add the `VITE_GRAPHCMS_URL` variable and endpoint to the "Environment
+Variables" section of the Vercel project.
 
-## Developing
-
-Once you've created a project and installed dependencies with
-`npm install` (or `pnpm install` or `yarn`), start a development
-server:
+### Download Manually
 
 ```bash
-npm run dev
+npx degit https://github.com/spences10/sveltekit-graphcms-starter-blog sveltekit-graphcms-starter-blog
+```
 
-# or start the server and open the app in a new browser tab
+Install & Run:
+
+```bash
+cd sveltekit-graphcms-starter-blog
+npm install
 npm run dev -- --open
 ```
 
-## Building
+<!-- Links -->
 
-Before creating a production version of your app, install an
-[adapter](https://kit.svelte.dev/docs#adapters) for your target
-environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of
-> whether you installed an adapter. This should _not_ be used to serve
-> your app in production.
+[blog post]: ./

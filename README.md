@@ -1,17 +1,17 @@
-# SvelteKit GraphCMS blog-starter example
+# create-svelte
 
-Bare bones example of dynamic routing and data fetching in Svelte with
-SvelteKit.
+Everything you need to build a Svelte project, powered by
+[`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
-Uses the GraphCMS `blog-starter` template, make sure to enable the API
-Access `Content from stage Published` setting when trying to fetch
-data.
+## Creating a project
 
-## Made with `create-svelte`
+If you're seeing this, you've probably already done this step.
+Congrats!
 
 ```bash
 # create a new project in the current directory
 npm init svelte@next
+
 # create a new project in my-app
 npm init svelte@next my-app
 ```
@@ -26,6 +26,7 @@ server:
 
 ```bash
 npm run dev
+
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```

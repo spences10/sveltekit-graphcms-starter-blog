@@ -15,7 +15,7 @@
     "@tailwindcss/typography": "0.4.1",
     "autoprefixer": "10.4.0",
     "cssnano": "5.0.10",
-    "daisyui": "1.16.1",
+    "daisyui": "1.16.2",
     "eslint": "8.1.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-svelte3": "3.2.1",

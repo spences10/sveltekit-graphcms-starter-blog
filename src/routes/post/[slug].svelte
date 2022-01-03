@@ -35,7 +35,7 @@
     `
 
     const variables = {
-      slug: context.page.params.slug,
+      slug: context.params.slug,
     }
 
     const { post } = await graphcms.request(query, variables)

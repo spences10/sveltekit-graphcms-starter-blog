@@ -16,7 +16,7 @@
     "autoprefixer": "10.4.2",
     "cssnano": "5.0.15",
     "daisyui": "1.22.2",
-    "eslint": "8.6.0",
+    "eslint": "8.7.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-svelte3": "3.4.0",
     "graphql": "16.2.0",

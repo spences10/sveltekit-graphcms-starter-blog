@@ -8,7 +8,7 @@ specifiers:
   cssnano: 5.0.17
   daisyui: 2.2.2
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0
+  eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
   graphql: 16.3.0
   graphql-request: 4.0.0
@@ -22,13 +22,13 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.45
-  '@sveltejs/kit': 1.0.0-next.287_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.290_svelte@3.46.4
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
   autoprefixer: 10.4.2_postcss@8.4.7
   cssnano: 5.0.17_postcss@8.4.7
   daisyui: 2.2.2_4585f94de3eac54c17be782e8b51352c
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
+  eslint-config-prettier: 8.5.0_eslint@8.10.0
   eslint-plugin-svelte3: 3.4.1_eslint@8.10.0+svelte@3.46.4
   graphql: 16.3.0
   graphql-request: 4.0.0_graphql@16.3.0
@@ -130,8 +130,8 @@ packages:
       esbuild: 0.14.21
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.287_svelte@3.46.4:
-    resolution: {integrity: sha512-aiCCuSpE9U8tX+29fnPfh9qHzWm8dBP7hkWvzcb1SZqbij8WXHyntUg/LXmhqlb8zKflEMLWa8iS+coqYDPmPQ==}
+  /@sveltejs/kit/1.0.0-next.290_svelte@3.46.4:
+    resolution: {integrity: sha512-3Q0uX/auFYsoj3o7+vQtZ+ZsuRLAmVsra5hvkvml18EjfX1wGRNdLlPcl6VE95eAvViWe/65vGaNNC+02h1crA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -915,8 +915,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'

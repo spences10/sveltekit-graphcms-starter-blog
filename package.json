@@ -14,7 +14,7 @@
     "@sveltejs/kit": "next",
     "@tailwindcss/typography": "0.5.2",
     "autoprefixer": "10.4.4",
-    "cssnano": "5.1.5",
+    "cssnano": "5.1.7",
     "daisyui": "2.13.6",
     "eslint": "8.12.0",
     "eslint-config-prettier": "8.5.0",

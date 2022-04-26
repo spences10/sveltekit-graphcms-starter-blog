@@ -6,7 +6,7 @@ specifiers:
   '@tailwindcss/typography': 0.5.2
   autoprefixer: 10.4.5
   cssnano: 5.1.7
-  daisyui: 2.14.1
+  daisyui: 2.14.2
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0
   eslint-plugin-svelte3: 3.4.1
@@ -22,11 +22,11 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.49
-  '@sveltejs/kit': 1.0.0-next.320_svelte@3.47.0
+  '@sveltejs/kit': 1.0.0-next.321_svelte@3.47.0
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.24
   autoprefixer: 10.4.5_postcss@8.4.12
   cssnano: 5.1.7_postcss@8.4.12
-  daisyui: 2.14.1_c01214db2e04c60602bae73116393d69
+  daisyui: 2.14.2_c01214db2e04c60602bae73116393d69
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0_eslint@8.14.0
   eslint-plugin-svelte3: 3.4.1_eslint@8.14.0+svelte@3.47.0
@@ -109,8 +109,8 @@ packages:
       esbuild: 0.14.30
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.320_svelte@3.47.0:
-    resolution: {integrity: sha512-BDgF+gd73Gxls65rb3H2oacdQUrK8fM0X174t2kMfGS+MeNN6oZ+Kw+j0IJMzMaZSGco89+/wkPeArvDzM/2MQ==}
+  /@sveltejs/kit/1.0.0-next.321_svelte@3.47.0:
+    resolution: {integrity: sha512-Egdmxc+oxmKKhXAtLLHj6LnZQnfxgk/DpdRitDxDlSQq/hj1zSVswe3kGjPDaquNMkxXbvZcHwhbZvNnVTnWag==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -535,8 +535,8 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /daisyui/2.14.1_c01214db2e04c60602bae73116393d69:
-    resolution: {integrity: sha512-gVfq0R/yRHoYTUGy2s4ZPFzkshzsFcRb+taTmAs/0Q3BpIB+OUDcPKHebTSt8TM54WFqcCQksJO6MqOUkwiPDw==}
+  /daisyui/2.14.2_c01214db2e04c60602bae73116393d69:
+    resolution: {integrity: sha512-/FxRBLC/xydIqxv+EJHfmmH+UndrwcaAxbWsS/oVLnoeOdb4MN4VlkJ3sYOYrl3tmw/D1L5Lp0PK07ebY0O6QA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6

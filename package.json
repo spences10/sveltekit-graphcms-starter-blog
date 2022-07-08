@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
@@ -25,8 +25,9 @@
     "postcss-load-config": "4.0.1",
     "prettier": "2.7.1",
     "prettier-plugin-svelte": "2.7.0",
-    "svelte": "3.48.0",
+    "svelte": "3.49.0",
     "svelte-preprocess": "4.10.7",
-    "tailwindcss": "3.1.4"
+    "tailwindcss": "3.1.4",
+    "vite": "^2.9.13"
   }
 }
